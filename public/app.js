@@ -1,5 +1,5 @@
 // frontend/public/app.js
-const BASE_URL = window.__BASE_URL__ || location.origin;
+const BASE_URL = "https://tinylink-1-tk4n.onrender.com";
 
 const state = {
   loading: false,
