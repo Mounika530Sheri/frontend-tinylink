@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>TinyLink Stats</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+  <script>
+    window.__BASE_URL__ = "{{BASE_URL_PLACEHOLDER}}";
+  </script>
+</head>
+<body data-page="stats" data-code="{{CODE_PLACEHOLDER}}">
+  <div class="container">
+    <div class="header">
+      <h1>TinyLink</h1>
+      <div class="badge">Stats</div>
+    </div>
+
+    <div id="stats" class="panel">
+      <div id="status" class="status">Loading stats...</div>
+    </div>
+
+    <div class="footer">
+      <span>Health: <a href="/healthz" style="color:var(--accent)">/healthz</a></span>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
