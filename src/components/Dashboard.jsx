@@ -3,7 +3,7 @@ import axios from "axios";
 import AddLinkForm from "./AddLinkForm";
 import LinkTable from "./LinkTable";
 
-const API = "https://tinylink-2.onrender.com";
+const API = "https://tinylink-2-bfcu.onrender.com"
 
 export default function Dashboard() {
   const [links, setLinks] = useState([]);
