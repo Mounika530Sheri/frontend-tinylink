@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "https://tinylink-2.onrender.com";
+const API = "https://tinylink-2-bfcu.onrender.com"
 
 export default function AddLinkForm({ refresh }) {
   const [url, setUrl] = useState("");
