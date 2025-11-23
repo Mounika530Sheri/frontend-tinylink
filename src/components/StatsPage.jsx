@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-const API = "https://tinylink-2.onrender.com";
+const API = "https://tinylink-2-bfcu.onrender.com"
 
 export default function StatsPage() {
   const { code } = useParams();
